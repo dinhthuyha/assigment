@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:text="C"
+        android:id="@+id/txt_cicrle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/circle"
+        android:gravity="center"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txt_ten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/txt_cicrle"
+        android:text="lettwr"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_toLeftOf="@id/img_favorite"
+        android:singleLine="true"
+        android:id="@+id/txt_subject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_ten"
+        android:layout_toRightOf="@id/txt_cicrle"
+        android:textSize="12sp"
+        android:text="Hello, 4119173086HaDT. Welcome to Educational Codeforces Round.The round will be rated for ratings up to 2100.You are welcome to register and compete in Educational Codeforces Round 86. It starts on Sunday, April, 26, 2020 14:35 (UTC). The contest duration is 2 hours."/>
+
+    <ImageView
+        android:id="@+id/img_favorite"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/ic_star_border" />
+    <TextView
+        android:id="@+id/txt_date"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        android:text="09:26"/>
+</RelativeLayout>
